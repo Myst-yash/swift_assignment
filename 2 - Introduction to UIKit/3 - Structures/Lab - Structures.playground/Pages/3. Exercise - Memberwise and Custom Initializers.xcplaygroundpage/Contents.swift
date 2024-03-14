@@ -60,10 +60,12 @@ print(height.heightInInches)
 
 
 //:  Now create a variable instance of `Height` called `someonesHeight`. Use the initializer for inches to set the height to 65. Print out the property for height in centimeters and verify that it is equal to 165.1.
-
+var someHeight = Height(heightInInches: 65)
+print(someHeight.heightInCentimeters)
 
 //:  Now create a variable instance of `Height` called `myHeight` and initialize it with your own height. Verify that both `heightInInches` and `heightInCentimeters` are accurate.
-
+var myHeight = Height(heightInCentimeters:  180)
+print(myHeight)
 
 /*:
 [Previous](@previous)  |  page 3 of 10  |  [Next: App Exercise - Users and Distance](@next)
